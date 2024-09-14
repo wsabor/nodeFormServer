@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+  </head>
+
+  <body>
+    <section style="border: solid; padding: 10px; display: flex; width: 650px">
+      <form id="myForm" action="/submit-form" method="post">
+        <h1>Formulário de Cadastro</h1>
+        <!-- Campo para Nome -->
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome"
+          required
+        /><br /><br />
+
+        <!-- Campo para Sobrenome -->
+        <label for="sobrenome">Sobrenome:</label>
+        <input
+          type="text"
+          id="sobrenome"
+          name="sobrenome"
+          placeholder="Digite seu sobrenome"
+          required
+        /><br /><br />
+
+        <!-- Campo para Email -->
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu email"
+          required
+        /><br /><br />
+
+        <!-- Campo para Endereço -->
+        <label for="endereco">Endereço:</label>
+        <input
+          type="text"
+          id="endereco"
+          name="endereco"
+          placeholder="Digite seu endereço"
+          required
+        /><br /><br />
+
+        <!-- Campo para Telefone -->
+        <label for="telefone">Telefone:</label>
+        <input
+          type="tel"
+          id="telefone"
+          name="telefone"
+          placeholder="(XX) XXXXX-XXXX"
+          required
+        /><br /><br />
+
+        <!-- Campo para Data de Nascimento -->
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input
+          type="date"
+          id="data_nascimento"
+          name="data_nascimento"
+          required
+        /><br /><br />
+
+        <!-- Campo de Texto para Mensagem -->
+        <label for="mensagem">Mensagem:</label><br />
+        <textarea
+          id="mensagem"
+          name="mensagem"
+          rows="4"
+          cols="50"
+          placeholder="Escreva sua mensagem aqui..."
+        ></textarea
+        ><br /><br />
+
+        <!-- Botão de Submissão -->
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </form>
+      <img
+        src="senai.png"
+        alt="Logo SENAI"
+        style="align-content: end"
+        width="250px"
+        height="70px"
+      />
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

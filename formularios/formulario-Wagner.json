@@ -1,0 +1,9 @@
+{
+  "nome": "Wagner",
+  "sobrenome": "Sabor",
+  "email": "wsabor.senai@gmail.com",
+  "endereco": "Rua do SENAI",
+  "telefone": "11912345678",
+  "dataNascimento": "2000-01-01",
+  "mensagem": "Teste de formulário"
+}
